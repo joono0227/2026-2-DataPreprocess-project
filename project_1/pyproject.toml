@@ -1,0 +1,38 @@
+[project]
+name = "project-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "duckdb>=1.4.5",
+    "imbalanced-learn>=0.12.4",
+    "jupyter>=1.1.1",
+    "librosa>=0.11.0",
+    "lxml>=6.1.3",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "pandera>=0.26.1",
+    "pillow>=11.3.0",
+    "polars>=1.36.1",
+    "pyarrow>=21.0.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "scikit-image>=0.24.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "skimpy>=0.0.18",
+    "soundfile>=0.13.1",
+    "sqlalchemy>=2.0.52",
+    "umap-learn>=0.5.12",
+]
+
+[project.scripts]
+project-1 = "project_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
